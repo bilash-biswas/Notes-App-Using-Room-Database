@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RoomDatabaseinKotlin" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/red_color</item>
+         <item name="colorPrimaryVariant">@color/red_color</item>
+         <item name="android:statusBarColor">@color/red_color</item>
+    </style>
+
+    <style name="Theme.RoomDatabaseinKotlin" parent="Base.Theme.RoomDatabaseinKotlin" />
+    <style name="ProgressBar">
+        <item name="android:progressTint">@color/red_color</item>
+        <item name="android:indeterminateTint">@color/red_color</item>
+    </style>
+
+    <style name="BottomSheet" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Model</item>
+    </style>
+
+    <style name="Model" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_upper</item>
+    </style>
+</resources>
